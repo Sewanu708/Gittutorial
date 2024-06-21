@@ -18,6 +18,13 @@ class placement:
             return f'department is {self.training}'
         else:
             return 'Go home!'
+        
+    def team(self):
+        print('This is team Engineering')
+        
+        
+
+        
 
 
     
