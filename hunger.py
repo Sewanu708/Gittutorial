@@ -16,7 +16,7 @@ class placement:
     def department(self,department):
         if len(department) > 9: 
             return f'department is {self.training}'
-        else:
+        elif self.team:
             return 'Go home!'
         
     def team(self):
